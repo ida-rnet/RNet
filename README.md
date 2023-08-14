@@ -1,5 +1,6 @@
 
-# RNet <sub>-Generating and Analyzing of Chemical Reaction Network-</sunb>
+# RNet
+## -Generating and Analyzing of Chemical Reaction Network-
 
 The chemical formula of the reactant are considered as a graph, and chemical reaction networks are constructed by bonding and breaking chemical bonds. The generated network is analyzed to determine the reaction pathway leading to the correct product. By learning the structures of reaction intermediates, the model can predict the product and the reaction pathway for many chemical reactions.
 
@@ -25,7 +26,6 @@ The chemical formula of the reactant are considered as a graph, and chemical rea
      mydata.py    ( input data ).
 
      the generator.py construct the chemical reaction network, and prop.pkl, path.pkl.
-
      job.sh is batch script for multiple generation of the networks.
 
 ### Analyzation (Learning)
@@ -33,8 +33,5 @@ The chemical formula of the reactant are considered as a graph, and chemical rea
      It learns until the loss reaches a specified value and generates a point.pkl file.
 
 ## License
-All rights reserved 2023 Created by Tomonori Ida.
-
-Please contact me, ida@se.kanazawa-u.ac.jp
-
+  All rights reserved 2023 Created by Tomonori Ida.
 
