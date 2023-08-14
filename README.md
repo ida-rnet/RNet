@@ -7,7 +7,7 @@ The chemical formula of the reactant are considered as a graph, and chemical rea
 
  These codes consist of the generator and analyzer for the chemical reaction network. `Generator.py` construct the chemical reaction network from reactant formula as input (`mydata.py`). The generator output `prop.pkl` and `path.pkl` from the generated networks. If `point.pkl` is in parent directory, the generator also predict the product and reaction pathway. The `point.pkl` is a set of weights for the fragment structures included in the intermediates. `Analyzer.py` learn the reaction network through the `prop.pkl` and `path.pkl` and create the `point.pkl`.
 
-## Requirement
+## Requirements
 
  * Python 3.6
  * PyTorch
