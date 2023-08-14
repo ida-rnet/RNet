@@ -1,5 +1,5 @@
 
-# RNet -Generating and Analyzing of Chemical Reaction Network-
+# RNet <sub>-Generating and Analyzing of Chemical Reaction Network-</sunb>
 
 The chemical formula of the reactant are considered as a graph, and chemical reaction networks are constructed by bonding and breaking chemical bonds. The generated network is analyzed to determine the reaction pathway leading to the correct product. By learning the structures of reaction intermediates, the model can predict the product and the reaction pathway for many chemical reactions.
 
@@ -10,9 +10,11 @@ The chemical formula of the reactant are considered as a graph, and chemical rea
 ## Requirements
 
  * Python 3.6
+ * Numpy
  * PyTorch
  * NetworkX
  * Pickle
+ * OS
 
 ## Usage
 
