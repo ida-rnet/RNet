@@ -28,7 +28,7 @@ The chemical formula of the reactant are considered as a graph, and chemical rea
 
 ### Analyzation (Learning)
      For analyzation of the network, the analyzer.py in the parent directory learn all prop.pkl and path.pkl in each directory. 
-It learns until the loss reaches a specified value and generates a point.pkl file.
+     It learns until the loss reaches a specified value and generates a point.pkl file.
 
 ## License
 All rights reserved 2023 Created by Tomonori Ida.
