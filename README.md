@@ -10,12 +10,10 @@ The chemical formula of the reactant are considered as a graph, and chemical rea
 
 ## Requirements
 
- * Python 3.6
- * Numpy
- * PyTorch
- * NetworkX
- * Pickle
- * OS
+ * Python 3.8.3
+ * Numpy 1.18.5
+ * Torch 1.7.1
+ * NetworkX 2.4
 
 ## Usage
 
